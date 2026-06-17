@@ -1,0 +1,78 @@
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# Python / Backend
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs y Editores
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+# =========================
+# Sistema Operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Visual Studio
+# =========================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Coverage
+# =========================
+coverage/
+htmlcov/
+.coverage
+
+# =========================
+# Build
+# =========================
+build/
